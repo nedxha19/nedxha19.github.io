@@ -1,0 +1,18 @@
+h2{
+  padding:50px;
+margin: 20px;
+}
+.grad1{
+
+background: linear-gradient(251deg, rgba(36,0,24,1) 33%, rgba(0,181,255,1) 80%);
+
+}
+.grad2{
+
+background: linear-gradient(180deg, rgba(36,0,24,1) 16%, rgba(85,123,0,1) 37%, rgba(0,168,181,1) 51%, rgba(175,0,255,1) 69%, rgba(255,0,26,1) 79%);
+
+}
+.grad3{
+background: radial-gradient(circle, rgba(36,0,24,0.6530987394957983) 33%, rgba(78,255,0,1) 55%, rgba(255,0,26,1) 69%);
+
+}
