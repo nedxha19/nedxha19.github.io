@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Comforter&family=Indie+Flower&family=Shadows+Into+Light&family=Slabo+27px&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Shadows+Into+Light&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Indie+Flower&family=Shadows+Into+Light&family=Slabo+27px&display=swap');
+
+h1{
+   background-color:blue ;
+ padding: 50px;
+ font-size: 70px;
+text-align: center;
+letter-spacing: 1px;
+font-family: "Arvo";
+
+}
+h2{
+ background-color: lightpink;
+ padding: 30px;
+ font-size: 50px;
+text-align:center;
+letter-spacing: 2px;
+font-family: Comforter;
+}
+p{
+ font-size:20px;
+ line-height: 1.5;
+ text-align:justify;
+font-family: indie Flower;
+column-count: 3;
+}
+
+body{
+
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)
+}
