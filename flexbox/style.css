@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Comforter&family=Festive&family=Indie+Flower&family=Shadows+Into+Light&family=Slabo+27px&display=swap');
+
+.first-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: lightblue;
+
+}
+h1{
+	font-family: Festive;
+   background-color: red;
+   letter-spacing: 10px;
+   text-align: center;
+   font-size: 50px;
+}
+.stretch-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 400px;
+    background-color: lightgreen;
+   }   
+
+p{
+	background-color: pink;
+}
+.third-flex{
+  height: 400px;
+  background-color: seagreen;
+  display: flex;
+ justify-content: space-between;
+ align-items: flex-end;
+}
+img{
+width:100px;
+
+}
+.fourth-class{
+    height:400px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.fifth-class{
+	height: 300px;
+	background: rgb(0,36,1);
+background: linear-gradient(251deg, rgba(0,36,1,1) 35%, rgba(255,171,0,1) 69%);
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
