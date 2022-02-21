@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Comforter&family=Festive&family=Indie+Flower&family=Redressed&family=Shadows+Into+Light&family=Slabo+27px&display=swap');
+
+body{  
+    margin: 0;
+}
+
+
+
+header{
+     display: flex;
+     justify-content: center; 
+     align-items: center;
+     height: 400px;
+    background-image:url(223.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: redressed;
+}
+header h1{
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px;
+    border-radius: 20px;
+     font-family: redressed;
+}
+main{  
+     background: rgb(191,70,40);
+     background: radial-gradient(circle, rgba(191,70,40,1) 37%, rgba(11,9,9,1) 91%);
+	padding: 100px;
+}
+
+
+main p{
+	column-count: 2;
+	
+}
+footer{
+       height: 300px;
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+       background-image: url(45.jpg);
+       background-size: cover;
+       background-position: center;
+        font-family: redressed;
+}       
+footer p{
+        color: white;
+        font-size: 25px;
+        background-color:rgba(255,255,255,0.5);
+        border-radius: 40px;
+         font-family: redressed;
+}
