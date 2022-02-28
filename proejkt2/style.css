@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Comforter&family=Dancing+Script:wght@400;500;600&family=Festive&family=Indie+Flower&family=Redressed&family=Shadows+Into+Light&family=Slabo+27px&display=swap');
+h1{
+	text-align: center;
+}
+
+h2{
+   text-align: center;
+   font-size: 10px;
+   font-family:Releway;
+}
+
+.a{
+  border: dotted;
+  padding: 30px;
+  align-items: center;
+  column-count: 3;
+  color: black;
+  margin:10px;
+}
+
+#b{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background: background: rgb(67,158,158);
+background: radial-gradient(circle, rgba(67,158,158,1) 6%, rgba(64,64,133,1) 92%);
+  margin:10px;
+  padding: 30px;
+
+}
+
+#b p{
+
+	 background-color: white;
+	 padding: 30px;
+}
+.c{
+      display: flex;
+    justify-content: space-between;
+    align-items: stretch; 
+    height: 200px;
+    background-color: lightblue;
+    border:4px dotted;
+}
+
+#d{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+   background-color: blue;
+   border:4px dotted;
+}
+
+img{
+  
+   height: 50px;
+   width: 50px;
+
+
+}
+
+footer   {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	background-color: blue;
+	margin: 10px;
+	border: 4px dotted;
+	height: 6px;
+	height: 100px;
+	
+}
+footer p{
+      background-color: white;
+
+}
+
+	
