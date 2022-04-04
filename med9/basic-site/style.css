@@ -118,6 +118,50 @@ background-color: rgba(255,255,255,0.7);
 
 
 
+/************************************************* Page Styles **********************************************/
+/* Home Page */
+#home header {
+background-image: url(bg.PNG);
+}
+#home main h2 {
+background-color: lightpink;
+padding: 20px;
+color: white;
+}
+/* Animals Page */
+#animals header {
+background-image: url(BG-animals.jpg);
+height: 500px;
+}
+#animals main h2 {
+background-color: black;
+color: white;
+padding: 20px;
+}
+#animals section {
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+}
+#animals section .left {
+width: 40%;
+background-color: lightcoral;
+padding: 30px;
+}
+#animals section .right {
+width: 60%;
+background-color: lightblue;
+}
+#animals section .right img {
+height: 200px;
+}
+
+
+
+
+
+
+
 
 
 
