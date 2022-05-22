@@ -1,0 +1,143 @@
+/*
+*
+*title: Website ueber einen Shop;
+*Author :Nedit Xhaferi;
+*Date:28.03.2022;
+*
+*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Diplomata+SC&family=Goldman&family=Hurricane&family=Lobster&family=Merriweather:wght@300&family=Open+Sans&family=Puppies+Play&family=Raleway:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300&display=swap');
+
+/******************General styling*************/
+
+/*Navigation*/
+
+body{
+	margin: 0;
+}
+
+nav{
+background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:30px;
+
+}
+
+nav img {
+    height: 80px;
+    border-radius: 15%;
+}
+nav ul{
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+       list-style-type: none;
+}
+nav ul li a{
+           margin: 10px;
+           padding: 20px;
+           color: white;
+           text-decoration: none;
+           border-radius: 15px;
+           font-size: 20px;
+           font-family: "Roboto";
+}
+
+.r1{
+	background-color: black;
+}
+.r2{
+
+background-color: red;
+}
+.r3{
+  background-color: yellow;
+}
+nav ul li a:hover{
+      text-decoration: underline;
+}
+/*Header*/
+header{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+      background-image: url("bus.jpg");
+      background-size: cover;
+      background-position: center;
+
+}
+header h1{
+ font-size: 50px;
+ border-radius: 20px;
+ padding: 30px;
+ background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+ color:white;
+ font-family: "Roboto";
+
+}
+
+main{
+  background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  font-family: "Roboto";
+  
+}
+
+article{
+  color: white;
+  text-shadow: 5px 2px 2px black;
+  text-align: center;
+  font-size: 30px;
+  display: grid;
+  display: inline-block;    
+}
+
+h3{
+  font-family: "Roboto"; 
+  font-weight: bold;
+  font-size: 30px;
+}
+
+div img{
+  height: 300px;
+  width: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid black;
+  
+}
+
+.box{
+  text-align: center;
+  background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);  
+}
+/*Footer*/
+footer {
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);  
+}
+footer p{
+font-size: 20px;
+padding: 30px;
+color: steelblue;
+border-radius: 15px;
+background-color: rgba(255,255,255,0.7);
+
+}
+
+/*******************************Page styling*******************************************************/
+
+
+
+
+
+
+
+
+
+ 
